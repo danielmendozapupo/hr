@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open('README.rst', encoding='UTF-8') as f:
+with open('README.srt', encoding='UTF-8') as f:
     readme = f.read()
 setup( name='hr',
         version ='0.1.0',
@@ -11,3 +11,4 @@ setup( name='hr',
         install_requires=[],
         packages = find_packages('src'),
         package_dir={'':'src'}
+        )

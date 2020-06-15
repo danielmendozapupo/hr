@@ -1,0 +1,1 @@
+[{"name": "cloud_user", "groups": ["wheel"], "password": "$6$1btHEz2R$QeWKbEYqi4JjawdRISQBuK6ImPAW9RnIkUUgtCttsg8JoJR4l68yzhq5h/lecXiZKfxRf9PvhMfYRmvBO/RBV1"}, {"name": "ssm-user", "groups": [], "password": "!!"}]
