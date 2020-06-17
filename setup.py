@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 
-with open('README.srt', encoding='UTF-8') as f:
+
+with open('README.rst', encoding='UTF-8') as f:
     readme = f.read()
 
 setup( name='hr',
@@ -9,9 +10,9 @@ setup( name='hr',
         long_description = readme,
         author = 'Daniel',
         author_email = 'daniel.mendozapupo@gmail.com',
-        install_requires=[],
         packages = find_packages('src'),
         package_dir={'':'src'},
+        install_requires=[],
         entry_points={
             'console_scrips': 'hr=hr.cli:main',
             },
